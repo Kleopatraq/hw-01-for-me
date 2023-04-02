@@ -3,6 +3,10 @@
     --background-second-color: #2E2F42;
     --main-title-color: #2E2F42;
     --main-text-color: #434455;
+    --porttfolio-background-color: #ffffff;
+    --portfolio-title-color: #2E2F42;
+    --portfolio-text-color: #434455;
+    --portfolio-title-font-weight: 500;
 }
 
 body {
@@ -212,4 +216,103 @@ body {
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+}
+
+/*---------------PORTFOLIO---------------*/
+.portfolio {
+    background-color: var(--background-main-color, #ffffff);
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-btn {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    background: #F4F4FD;
+}
+
+.portfolio-btn:is(:hover, :focus) {
+    color: #FFFFFF;
+    background: #404BBF;
+}
+
+/*---------------BANKING---------------*/
+.banking {
+    background-color: var(--background-main-color, #ffffff);
+}
+
+.banking-list {}
+
+.banking-item {}
+
+.banking-title {
+    font-weight: var(--portfolio-title-font-weight, 500);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-title-color, #2E2F42);
+}
+
+.banking-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-text-color, #2E2F42);
+}
+
+/*---------------SERVICE---------------*/
+
+.service {
+    background-color: var(--background-main-color, #ffffff);
+}
+
+.service-list {}
+
+.service-item {}
+
+.service-title {
+    font-weight: var(--portfolio-title-font-weight, 500);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-title-color, #2E2F42);
+}
+
+.service-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-text-color, #2E2F42);
+}
+
+/*---------------FRESH---------------*/
+
+.fresh {
+    background-color: var(--porttfolio-background-color, #ffffff);
+}
+
+.fresh-list {}
+
+.fresh-item {}
+
+.fresh-titile {
+    font-weight: var(--portfolio-title-font-weight, 500);
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-title-color, #2E2F42);
+}
+
+.fresh-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--portfolio-text-color, #2E2F42);
 }
